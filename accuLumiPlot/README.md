@@ -3,6 +3,8 @@
 1. environment setup
 
 ```
+git clone -b Legacy_CMSSW_8_0_1 git@github.com:cms-DQM/DCTools.git 
+cd DCTools/accuLumiPlot
 bash
 source setup_lumiplots.sh
 ```
