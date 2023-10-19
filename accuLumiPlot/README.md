@@ -1,8 +1,12 @@
-# scripts to make accumulated luminosity plots
+# scripts to make accumulated luminosity plots (only works with older CMSSW, such as CMSSW_8_0_1)
+
+Note, CMSSW_8_0_1 is only available at lxplus7 machines.
 
 1. environment setup
 
 ```
+scramv1 project CMSSW_8_0_1
+cd CMSSW_8_0_1/src
 git clone -b Legacy_CMSSW_8_0_1 git@github.com:cms-DQM/DCTools.git 
 cd DCTools/accuLumiPlot
 bash
