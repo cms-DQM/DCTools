@@ -5,7 +5,7 @@
 ```
 scramv1 project CMSSW_13_0_10
 cd CMSSW_13_0_10/src
-git clone git@github.com:cms-DQM/DCTools.git 
+git clone -b python27_CMSSW_13_0_10 git@github.com:cms-DQM/DCTools.git 
 cd DCTools/accuLumiPlot
 bash
 source setup_lumiplots.sh
